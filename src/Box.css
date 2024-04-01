@@ -1,0 +1,21 @@
+.BoxContainer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 5px;
+    margin:auto;
+    width: 40%;
+    height: 60vh;
+}
+
+.Boxelem{
+    background-color: rgba(171, 245, 253, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    width:180px;
+    height:100px;
+    font-size: 30px;
+    text-align: center;
+}
+.Boxelem:hover{
+    cursor: pointer;
+}
